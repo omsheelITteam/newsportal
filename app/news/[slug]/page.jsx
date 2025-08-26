@@ -85,7 +85,7 @@ const Details = async ({ params }) => {
             <div className="w-full xl:w-4/12">
               <div className="w-full pl-0 xl:pl-4">
                 <div className="flex flex-col gap-y-6">
-                  <Search />
+                  {/* <Search /> */}
                   <RecentNews />
                 </div>
               </div>
