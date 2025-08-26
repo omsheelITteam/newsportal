@@ -240,7 +240,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "next/navigation";
-import BreadCrumb from "@/components/breadCrumb";
+import BreadCrumb from "@/components/BreadCrumb";
 import RecentNews from "@/components/News/RecentNews";
 import PopularNews from "@/components/News/PopularNews";
 import Search from "@/components/Search";

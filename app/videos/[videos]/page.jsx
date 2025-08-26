@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import BreadCrumb from "@/components/breadCrumb";
+import BreadCrumb from "@/components/BreadCrumb";
 import RecentNews from "@/components/News/RecentNews";
 import PopularNews from "@/components/News/PopularNews";
 import Search from "@/components/Search";
