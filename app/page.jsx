@@ -211,6 +211,7 @@ const Home = async () => {
   
   const newsRes = await fetch(`${backendURL}/api/news/get-all-news`, {
     next: { revalidate: 5 },
+     cache: "no-store",
   });
   const newsJson = await newsRes.json();
   const news = newsJson.news || [];
