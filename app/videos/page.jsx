@@ -7,7 +7,7 @@ import axios from "axios";
 
 // Turn YouTube URL into embed + JS API enabled
 const getEmbedLink = (url) => {
-  const backendURL = process.env.NEXT_PUBLIC_BACKEND_URL;
+  // const backendURL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
   if (!url) return "";
   const match = url.match(/(?:v=|youtu\.be\/)([^&?/]+)/);
@@ -31,7 +31,7 @@ const Videos = () => {
   const htmlVideoRefs = useRef([]);    // <video> elements
   const iframeRefs = useRef([]);        // <iframe> elements
   const ytPlayers = useRef({});         // index -> YT.Player instance
-
+  const backendURL = process.env.NEXT_PUBLIC_BACKEND_URL;
   // Fetch videos
   useEffect(() => {
     (async () => {
