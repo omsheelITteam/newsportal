@@ -217,7 +217,7 @@ const Footer = () => {
               <p className="font-bold text-yellow-400">Support</p>
               <ul className="mt-4 space-y-3 text-sm">
                 <li><a href="#" className="hover:text-yellow-400">Contact</a></li>
-                <li><a href="#" className="hover:text-yellow-400">Feedback</a></li>
+                <li><a href="/feedBack" className="hover:text-yellow-400">Feedback</a></li>
               </ul>
             </div>
 
